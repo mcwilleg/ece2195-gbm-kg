@@ -1,0 +1,211 @@
+Regulator Name,Regulator Type,Regulator Subtype,Regulator HGNC Symbol,Regulator Database,Regulator ID,Regulator Compartment,Regulator Compartment ID,Regulated Name,Regulated Type,Regulated Subtype,Regulated HGNC Symbol,Regulated Database,Regulated ID,Regulated Compartment,Regulated Compartment ID,Sign,Connection Type,Mechanism,Site,Cell Line,Cell Type,Tissue Type,Organism
+C3,protein,enzyme,,UniProt,Q9Y5T4,plasma membrane,GO:0005886,PLC ?,enzyme,,,UniProt,,cytoplasm,GO:0005634,positive,direct,activation,,FFA2-HEK293,epithelial-like,kidney,human
+Epidermal growth factor (EGF),small molecule,,,PubChem,1613492,extracellular,GO:0005615,ERK1/2,protein,,MAPK1,UniProt,P28482,cytoplasm,GO:0005829,positive,direct,phosphorylation,,HEK293,epithelial-like,kidney,human
+FR,other,,,,,cytoplasm,GO:0005737,G proteins,protein,,,UniProt,,plasma membrane,GO:0005886,positive,indirect,internalization,,HEK293,epithelial-like,,human
+Gq,protein,G-protein alpha subunit,GNAQ,UniProt,P25021,plasma membrane,GO:0005886,G?2,protein,G-protein gamma subunit,GNAT2,UniProt,P62858,plasma membrane,GO:0005886,positive,direct,activation,,HEK293,epithelial-like,kidney,human
+LAT,protein,,,,LAT,plasma membrane,GO:0005886,PDAC,cell,,,,PDAC,,,positive,direct,phosphorylation,,,epithelial,pancreas,human
+FRS?,protein,,FRS2,UniProt,Q14289,cytoplasm,GO:0005737,SHP2,protein,,PTPN11,UniProt,Q06124,cytoplasm,GO:0005737,positive,direct,phosphorylation,,,melanoma,skin,human
+SCH772984 ERKi,protein,inhibitor,,UniProt,,cytoplasm,GO:0005737,LAT,protein,,LAT,UniProt,Q13509,cytoplasm,GO:0005737,positive,direct,phosphorylation,,Pa16C,epithelial-like,pancreas,human
+SCH772984,small molecule,ERKi,,UniProt,SCH772984,cytoplasm,GO:0005829,Pa16C,cell,,,,Pa16C,cytoplasm,GO:0005829,negative,indirect,inhibition,,"MIA PaCA-2, Pa02C, Pa14C, Pa16C",epithelial-like,pancreas,human
+LY3009120,small molecule,inhibitor,,PubChem,1198134,cytoplasm,GO:0005737,Colorectal organoids,cell,,,,,,,negative,direct,inhibition,,CRC,epithelial-like,colon,human
+p85,protein,regulatory subunit,PIK3R1,UniProt,Q08191,plasma membrane,GO:0005886,"PtdIns(3,4,5)P3",lipid,second messenger,,,,plasma membrane,GO:0005886,positive,direct,association,phosphorylated tyrosine residues,,epithelial-like,,human
+mTOR,protein,kinase,MTOR,UniProt,Q9Y4H2,cytoplasm,GO:0005737,Apaf-1,protein,,APAF1,UniProt,O14727,mitochondria,GO:0005739,negative,direct,phosphorylation,,,epithelial-like,,human
+mTOR,protein,,MTOR,UniProt,Q9Y473,cytoplasm,GO:0005737,eIF4E,protein,,EIF4E,UniProt,P68371,cytoplasm,GO:0005737,positive,direct,phosphorylation,T70,,epithelial-like,,human
+scClassical,other,,,fplx,scClassical,,,IC,other,,,fplx,IC,,,positive,indirect,transition,,,cancer cell,,human
+GATA6,protein,,GATA6,UniProt,Q9NRL7,nucleus,GO:0005634,scClassical,cell state,,,fplx,scClassical,,GO:0005623,positive,indirect,amplification,,PDAC cells,epithelial-like,pancreas,human
+cell-cell interactions,biological process,,,,,,,surface glycoproteins,other,,,,,,,positive,indirect,adhesion,,,epithelial-like,,human
+classical,cell state,,,,,,,PDAC,disease,,,,,,,positive,indirect,regulation,,,epithelial,pancreas,human
+Geometry,other,,,,,,GO:0000004,Morphological phenotypes,other,,,,,tissue,GO:0007275,positive,indirect,regulation,,,,,
+two unknown general regulatory products,protein,,,,,,,,protein,,,,,,,positive,indirect,regulation,,,planarian,,planarian
+Notch,signaling pathway,,,KEGG,Notch,cytoplasm,GO:0005737,planarian stem cells,cell,,,,,stem cell niche,GO:0061447,positive,indirect,regulation,,planarian stem cells,stem cell,head-trunk-tail,planarian
+Frizzled,protein,,,UniProt,,plasma membrane,GO:0005886,?-catenin,protein,,CTNNB1,UniProt,P35222,cytoplasm,GO:0005829,positive,direct,interaction,,,,,Homo sapiens
+Notch,,,,UniProt,,,,Wnt,protein,,,UniProt,P0DJI9,plasma membrane,GO:0005886,negative,direct,inhibition,,,epithelial,planarian,planaria
+Akt,protein,serine/threonine kinase,AKT1,UniProt,P31749,cytoplasm,GO:0005737,Human Mammary Epithelial Cells,cell,epithelial,,fplx,HMEC,cytoplasm,GO:0005737,positive,direct,phosphorylation,,,epithelial,breast,human
+TGF-alpha,protein,,TGF-alpha,UniProt,P01133,plasma membrane,GO:0005886,EGFR,protein,,EGFR,UniProt,P00533,plasma membrane,GO:0005886,positive,direct,activation,plasma membrane,,epithelial,,human
+VEGFR1,protein,receptor,KDR,UniProt,P17948,plasma membrane,GO:0005886,GBSCs,cell,,,fplx,GBSCs,plasma membrane,GO:0005886,negative,direct,signaling,,,stem cell,,human
+Negative transcriptional regulators,protein,transcription factor,,UniProt,,nucleus,GO:0005634,Signaling output,signaling pathway,,,,,cell membrane,GO:0005886,negative,indirect,transcriptional regulation,promoter region,,epithelial,,mammalian
+T,protein,,,UniProt,,cytoplasm,GO:0005737,Y2,protein,,,UniProt,,cytoplasm,GO:0005737,negative,direct,degradation,,,epithelial,,human
+SNCA,protein,,SNCA,UniProt,P11243,cytoplasm,GO:0005737,M5,module,,,"KEGG, WikiPathways",M5,,,positive,indirect,pathway enrichment,,,,,human
+PSP,database,,,PSP,,cytoplasm,GO:0005829,Phosphosite,protein,,,PSP,,cytoplasm,GO:0005829,positive,indirect,regulation,phosphosite,,,,
+Gradient Boosting Machine,algorithm,,,scikit-learn,GradientBoostingClassifier,software,GO:0010311,ST,other,,,,,,,positive,indirect,prediction,,,epithelial-like,,human
+None,model,in vitro,None,,None,lab,,None,model,in vitro,None,,None,lab,,positive,indirect,prediction,,,,,
+drug,drug,,,,,cell,,potency,other,,,,,cell,,positive,indirect,combination,,,,,human
+glycerol,chemical,,,,glycerol,cytoplasm,GO:0005737,M. tuberculosis Erdman,bacteria,,,UniProt,M tuberculosis,cytoplasm,GO:0005737,positive,direct,maintain,,,epithelial-like,lung,human
+Bedaquiline,small molecule,antibiotic,,PubChem,,extracellular,GO:0005615,M. tuberculosis,other,bacterium,,UniProt,,extracellular,GO:0005615,negative,direct,inhibition,,,macrophage,lung,human
+ROS,protein,,,UniProt,,cytoplasm,GO:0005737,BRAF,protein,,,UniProt,,cytoplasm,GO:0005737,positive,direct,phosphorylation,,,melanoma,skin,human
+EGF,protein,,EGF,UniProt,P01133,extracellular,GO:0005576,RAS-GTP,protein,active,,UniProt,P01112,cytoplasm,GO:0005829,positive,direct,phosphorylation,,,epithelial-like,,human
+Activation,biochemical process,,,,,cytoplasm,GO:0005829,Phosphorylated substrate,protein,,,UniProt,,cytoplasm,GO:0005829,positive,direct,phosphorylation,target site,,epithelial,,human
+modification,,,,,,,,object,,,,,,,,positive,direct,modification,,,,,
+boolean2 package,software,,,,,,,INDRA Statements,statements,,,,,,,positive,indirect,assembly,,,epithelial-like,,human
+Taselisib,protein,,,UniProt,Q8NZA8,cytoplasm,GO:0005829,TCR,other,,,fplx,TCR,plasma membrane,GO:0005886,positive,direct,inhibition,,HEK 293T,epithelial-like,,human
+cytochrome c,protein,,MT-CYB,UniProt,P00156,mitochondria,GO:0005739,caspase-9,protein,caspase,CASP9,UniProt,Q92886,cytoplasm,GO:0005829,positive,direct,activation,,,epithelial-like,,human
+STAT3,protein,transcription factor,STAT3,UniProt,P40763,nucleus,GO:0005634,PTPRC,protein,,PTPRC,UniProt,P06241,cytoplasm,GO:0005737,positive,indirect,regulation,,glioblastoma,epithelial-like,brain,human
+MITF,protein,transcription factor,MITF,UniProt,Q02763,nucleus,GO:0005634,RXRA,protein,transcription factor,RXRA,UniProt,P19793,nucleus,GO:0005634,positive,indirect,transcriptional regulation,,,hematopoietic cells,bone marrow,human
+SOX10,protein,,SOX10,UniProt,Q9P2S3,nucleus,GO:0005634,myeloid and microglia marker genes,gene,,,,,cytoplasm,GO:0005737,negative,indirect,regulation of gene expression,,,neural crest,,mouse
+GFP,protein,,GFP,UniProt,P42212,cytoplasm,GO:0005737,tumour cells,cell,,,,,,,positive,direct,expression,,,,brain,mouse
+MethylSeekR,software,,,,MethylSeekR,,,DMVs,genomic feature,,,,DMVs,chromosome,GO:0005698,positive,direct,detection,,,,,human
+calcium,ion,,,,,cytosol,GO:0005829,ERKKTR,protein,,,,,cytosol,GO:0005829,positive,direct,activation,,HeLa,epithelial,cervix,human
+EKAR,protein,,,UniProt,Q15746,cytoplasm,GO:0005737,NFAT,protein,,NFATC1,UniProt,Q16520,nucleus,GO:0005634,positive,indirect,translocation,,HEK 293T,epithelial-like,kidney,human
+Gateway LR Clonase ll Enzyme Mix,enzyme,,,UniProt,,cytoplasm,GO:0005737,pLex307,vector,,,Addgene,41392,cytoplasm,GO:0005737,positive,direct,recombination,,,,,
+PicchuEV,protein,,,UniProt,,plasma membrane,GO:0005886,biosensor,protein,,,UniProt,,plasma membrane,GO:0005886,positive,indirect,stimulus-dependent,,,,,
+PIK3CA,protein,oncogene,PIK3CA,UniProt,P42336,membrane,GO:0005886,RB1,gene,tumor suppressor,RB1,UniProt,P06400,nucleus,GO:0005634,positive,indirect,methylation,,,cancer,,human
+RB1,protein,,RB1,UniProt,P06400,nucleus,GO:0005634,RACSs,,,,,,,,positive,direct,amplification,,,cancer cell,,human
+FLT3,gene,,FLT3,UniProt,P36891,plasma membrane,GO:0005886,T790M EGFR,protein,,,,,plasma membrane,GO:0005886,negative,indirect,resistance,,,lung adenocarcinoma,lung,human
+EGFR,protein,,EGFR,UniProt,P00533,cell membrane,GO:0005886,G-CIMP,other,,,fplx,G-CIMP,,GO:0000001,positive,direct,expression,,,epithelial-like,,human
+Inhibitor of apoptosis (IAP) proteins,protein,,,UniProt,,cytoplasm,GO:0005829,Death-inducing signaling complexes (DISC),complex,,,UniProt,,cytoplasm,GO:0005829,negative,direct,inhibition,,,,,human
+BCL2,protein,,BCL2,UniProt,P10474,mitochondria,GO:0005739,BAX,protein,,BAX,UniProt,Q07817,mitochondria,GO:0005739,negative,direct,binds,,,,,
+MAP3K1,protein,,MAP3K1,UniProt,P48736,cytoplasm,GO:0005737,MEK inhibitor,other,,,,selumetinib,cytoplasm,GO:0005737,positive,direct,inhibition,,breast cancer cell lines,epithelial-like,breast,human
+HSP90,protein,,HSP90AB1,UniProt,P08238,cytoplasm,GO:0005737,cell viability,other,,,fplx,cell viability,cytoplasm,GO:0005737,positive,indirect,phosphorylation,,"MDA-MB-468, H358, HCT116, LoVo and DLD1",epithelial-like,breast and colon,human
+_NFAT_,protein,,NFATC1,UniProt,Q9UQP9,cytosol,GO:0005829,_nucleus_,compartment,,,,,nucleus,GO:0005634,positive,indirect,translocation,,,T-cell,,human
+NCI-ALMANAC dataset,dataset,,,NCI,NCI-ALMANAC dataset,,,Bliss independence score,algorithm,,,,,,,positive,indirect,modification,,,,,human
+chloroquine,small molecule,inhibitor,,DrugBank,DB01123,cytoplasm,GO:0005737,autophagy,process,,,fplx,autophagy,cytoplasm,GO:0005737,negative,direct,inhibition,,,epithelial-like,,human
+Chloroquine,small molecule,,,DrugBank,DB00255,lysosome,GO:0005764,TP53,protein,,TP53,UniProt,P04637,nucleus,GO:0005634,negative,indirect,inhibition,,SC196 and SC274,epithelial-like,lung,mouse
+PI3K,protein,,PIK3CA,UniProt,P42336,plasma membrane,GO:0005886,PI3K,protein,,PIK3CA,UniProt,P42336,plasma membrane,GO:0005886,negative,indirect,degradation,,,epithelial-like,,human
+Plk1H,protein,,PLK1,UniProt,Q13177,cytoplasm,GO:0005737,Apoptotic Switch,other,,,fplx,,cytoplasm,GO:0005737,negative,direct,inhibition,,,epithelial-like,,human
+Caspase 6,protein,,CASP6,UniProt,P42539,cytosol,GO:0005829,Inhibitor of Apoptosis (IAP),process,,,,,cytosol,GO:0005829,positive,direct,activation,,,B-cell,,human
+Trail,protein,,,UniProt,P48544,extracellular space,GO:0005615,BIM,protein,,BCL2L11,UniProt,Q92843,cytoplasm,GO:0005737,negative,direct,activation,,,epithelial-like,,human
+ERK,protein,,MAPK1,UniProt,P28482,cytoplasm,GO:0005737,Cyclin B,protein,,CCNB1,UniProt,P14635,nucleus,GO:0005634,negative,direct,inhibition,,,epithelial-like,,human
+C,protein,,,UniProt,,plasma membrane,GO:0005886,D,protein,,,UniProt,,plasma membrane,GO:0005886,negative,indirect,inhibition,,,B-cell,,human
+BRAFi,chemical,inhibitor,,,,plasma membrane,GO:0005886,melanoma cells,other,,,fplx,melanoma cells,plasma membrane,GO:0005886,negative,direct,inhibition,,,epithelial-like,skin,human
+Patient,individual,,,,,plasma,GO:0005615,Drug,small molecule,,,PubChem,,plasma,GO:0005615,negative,indirect,pharmacokinetic,plasma,,epithelial-like,,human
+BET proteins,protein,,BRD2,UniProt,Q92747,nucleus,GO:0005634,Dormant/drug resistant cells,cell,,,,,nucleus,GO:0005634,positive,direct,binding,,HEK 293T,epithelial-like,kidney,human
+Fetal Bovine Serum (FBS),supplement,,,,,extracellular,GO:0005615,Fibroblasts,cell,,,,,cytoplasm,GO:0005829,positive,indirect,nutrient supply,,,fibroblast,,human
+ACSL4,enzyme,lipid,ACSL4,HGNC,102,endoplasmic reticulum,GO:0005783,Ferroptosis,process,,,Wikipedia,,cytoplasm,GO:0005737,positive,direct,inhibition,,mouse,neuron,brain,mouse
+Aft1,protein,transcription factor,,UniProt,,nucleus,GO:0005634,multiple genes,genes,,,,,nucleus,GO:0005634,positive,indirect,transcriptional regulation,,,yeast,,yeast
+Fmp48,protein,,FMP48,UniProt,Q9QZV4,plasma membrane,GO:0005886,downstream biological processes,biological process,,,,,,,positive,indirect,regulation,,,,,
+LAT,protein,,LAT,UniProt,Q6ZNM5,plasma membrane,GO:0005886,PLC ?,protein,,PLCG1,UniProt,P19174,plasma membrane,GO:0005886,positive,direct,phosphorylation,,,B-cell,,human
+BAD,protein,,BCL2L11,UniProt,Q92977,mitochondria,GO:0005739,A375 cells,cell line,,,,A375,cell,GO:0005623,positive,indirect,activation,,A375,melanoma,,human
+inhibitor compound,chemical,,,,,culture medium,,cells,cell,,,,,culture medium,,negative,indirect,inhibition,,,epithelial,,human
+Leupeptin,protein,protease inhibitor,LPEP,UniProt,P10619,cytoplasm,GO:0005737,Proteases,enzyme,serine protease,,UniProt,,cytoplasm,GO:0005737,negative,direct,inhibition,,,epithelial,colorectal,human
+IID,database,,,IID,IID,,,HiPPIE,database,,,HiPPIE,HiPPIE,,,positive,indirect,data import,,,,,human
+MatrixDB,other,,,fplx,MatrixDB,,GO:0005576,PPIs,protein-protein interaction,,,UniProt,,cytoplasm,GO:0005737,positive,direct,,,,epithelial,,human
+JNK,protein,MAPK,MAPK8,UniProt,Q05193,cytoplasm,GO:0005829,mTORC1,complex,,,fplx,mTORC1,cytoplasm,GO:0005829,negative,direct,phosphorylation,,,epithelial-like,,human
+Inhibitors,small molecule,,,,,cytoplasm,GO:0005829,Viability,cellular process,,,,,cytoplasm,GO:0005829,negative,indirect,inhibition,,,epithelial-like,,human
+PageRank centrality,algorithm,,,,,,,transcriptional regulatory dynamics,other,,,fplx,,nucleus,GO:0005634,positive,direct,regulation,,,stem cell,,human
+T790M cells,cell,,,UniProt,,,,drug tolerant cells,cell,,,UniProt,,,,negative,direct,death,,PC9,epithelial-like,lung,human
+Variable 1,protein,,,UniProt,,plasma membrane,GO:0005886,Variable 2,protein,,,UniProt,,plasma membrane,GO:0005886,positive,indirect,OR operator,,,B-cell,,human
+Negative regulators,protein,,,,,cell,GO:0005623,Steady state signaling,other,,,,,cell,GO:0005623,negative,indirect,"post-translational modification, de novo synthesized negative regulators",,,epithelial,,human
+highly loaded genes,genes,,,,,,,subcellular localization annotations,other,,,,,,,positive,indirect,regulation,,,,,
+mTORC1,protein,mTOR complex 1,MTOR,UniProt,Q9Y4H2,plasma membrane,GO:0005886,PIP3,lipid,"phosphatidylinositol-3, 4, 5-bisphosphate",,fplx,PIP3,plasma membrane,GO:0005886,negative,direct,dephosphorylation,,,epithelial,,human
+EGFR,protein,,EGFR,UniProt,P00533,plasma membrane,GO:0005886,ribosome,other,,,,ribosome,cytoplasm,GO:0005737,positive,direct,phosphorylation,,,epithelial-like,,human
+Ependymal cell,cell,,,,Ependymal cell,brain,GO:0000044,Neuron,cell,,,,Neuron,brain,GO:0000044,positive,direct,defense,,,epithelial-like,brain,human
+Metabolic pathways,biological process,,,GO,GO:0008152,cell,GO:0005623,T-cell regulation,biological process,,,GO,GO:0001775,cell,GO:0005623,positive,indirect,regulation,,,,,
+NFAT,transcription factor,nuclear,NFATC1,UniProt,Q14247,nucleus,GO:0005634,LAT,protein,,LAT,UniProt,Q13490,plasma membrane,GO:0005886,positive,indirect,activation,,T-cells,T-cells,lymphoid,human
+PDI,protein,,PDIA3,UniProt,P60416,endoplasmic reticulum,GO:0005783,MO,cell,,,,,,,positive,direct,inhibition of adenylate cyclase activity,,,epithelial-like,,human
+CDK2,protein,,CDK2,UniProt,P24941,nucleus,GO:0005634,CDKN1A,protein,,CDKN1A,UniProt,P38919,nucleus,GO:0005634,negative,direct,phosphorylation,,,epithelial-like,,human
+coordinated responses,other,,,,,,,signaling pathways,other,,,,,,,positive,direct,,,,,,
+CXCL,protein,,CXCL1,UniProt,P22362,extracellular region,GO:0005615,Schwann cell,cell,,,,,tissue,GO:0044464,positive,indirect,signaling,,,Schwann cell,tissue,human
+Wnt5a,protein,ligand,WNT5A,UniProt,Q9Y5T7,extracellular space,GO:0005615,WNT pathway,pathway,,,fplx,WNT pathway,extracellular space,GO:0005615,positive,direct,ligand-receptor interaction,extracellular space,E14.5 dermal condensate (DC) and epithelial placode cells,dermal condensate and epithelial placode cells,embryonic hair follicle,mouse
+Ednrb,receptor,G protein-coupled receptor,EDNRB,UniProt,P35461,plasma membrane,GO:0005886,Dct,protein,,DCT,UniProt,P16381,melanosome,GO:0042470,positive,direct,binding,,,melanocyte,skin,mouse
+KIT,protein,,KIT,UniProt,P10721,plasma membrane,GO:0005886,KIT,protein,,KIT,UniProt,P10721,plasma membrane,GO:0005886,positive,direct,,,E14.5,epithelial-like,skin,mouse
+VEGFA,protein,,VEGFA,UniProt,P15692,plasma membrane,GO:0005886,KRT14,protein,,KRT14,UniProt,P04264,cytoplasm,GO:0005737,negative,indirect,signaling,,,keratinocyte,skin,human
+NKT,cell,T cell,,,,lymphoid tissue,GO:0021797,T cells (TC),cell,,,,,lymphoid tissue,GO:0021797,positive,direct,chemokine signaling,,,fibroblast,skin,human
+CD40LG,protein,ligand,CD40LG,UniProt,P18428,plasma membrane,GO:0005886,TC,cell,T cell,,,T cell,plasma membrane,GO:0005886,positive,direct,ligand-receptor binding,plasma membrane,,T cell,skin,human
+SingleCellSignalR,method,,,,,,,iTALK,method,,,,,,,positive,indirect,prediction overlap,,,immune cells,,human
+Cell,cell,,,,,,,Cell,cell,,,,,,,positive,direct,communication,,,epithelial,skin,human
+NFAT,protein,,NFATC1,UniProt,Q14240,nucleus,GO:0005634,TCR,other,,,fplx,TCR,plasma membrane,GO:0005886,positive,indirect,activation,,,T-cell,lymphoid,human
+CD1C,protein,,CD1C,UniProt,Q9Y2D9,plasma membrane,GO:0005886,DC,cell,dendritic cell,,fplx,DC,extracellular matrix,GO:0005576,negative,indirect,signaling,,lesional and non-lesional skin,dendritic cell,skin,human
+SRC,protein,,SRC,UniProt,P12931,cytoplasm,GO:0005737,GSK3?,protein,,GSK3B,UniProt,Q9Y2I1,cytoplasm,GO:0005737,negative,direct,phosphorylation,,,cancer cell,,human
+NFAT,protein,,NFATC1,UniProt,Q14270,nucleus,GO:0005634,TCR / CD3 subunits,other,,,fplx,TCR/CD3,plasma membrane,GO:0005886,positive,indirect,activation,,,T-cell,,human
+JQ1,small molecule,,,,JQ1,cytoplasm,GO:0005829,viability,phenotype,,,,viability,,,positive,indirect,regulation,,,epithelial,,human
+TSC/mTOR pathway,pathway,,,,,,,proteins,protein,,,,,,,positive,indirect,cross-signaling,,,cancer cell,,human
+PARADIGM,method,,,,,,,UCS,tumor type,,,,,,,positive,indirect,comparison,,,,,human
+uveal melanoma (UVM),disease,,,,UVM,,,concordance score,other,,,,concordance score,,,positive,indirect,data correlation,,"RPPA, mRNA expression, microRNA expression, DNA methylation",epithelial-like,,human
+Temozolomide,drug,chemotherapeutic,,DrugBank,DB01229,extracellular,GO:0005615,glioblastoma cells,other,,,,glioblastoma,brain,GO:0000002,negative,indirect,apoptosis,,,glioblastoma,brain,human
+ER,protein,receptor,ESR1,UniProt,P03372,nucleus,GO:0005634,FGFR1,protein,receptor tyrosine kinase,FGFR1,UniProt,P11362,cell surface,GO:0005886,positive,indirect,amplification,,,epithelial,breast,human
+FGFR4,protein,,FGFR4,UniProt,Q15365,cell membrane,GO:0005886,cholangiocarcinoma,other,,,,,,,positive,indirect,amplification,,rhabdomyosarcoma,muscle cell,skeletal muscle,human
+FGFR3,protein,,FGFR3,UniProt,P22607,plasma membrane,GO:0005886,bladder cancer,other,,,,bladder cancer,,,negative,indirect,mutation,,,epithelial,bladder,human
+Blood vessel growth factor,protein,,,UniProt,,extracellular matrix,GO:0005615,Blood vessel,other,,,,,extracellular matrix,GO:0005615,positive,direct,binds,,,tumour,,human
+sorafenib,drug,,,,,,,OS (overall survival),other,,,,,,,negative,indirect,comparison,,,,,human
+DAB1,protein,,DAB1,UniProt,Q9Y6B1,cytoplasm,GO:0005737,neurons,cell,,,fplx,neurons,,,positive,indirect,signaling,,,neuronal-like,brain,human
+p300,protein,transcription factor,EP300,UniProt,P52208,nucleus,GO:0005634,p300,protein,transcription factor,EP300,UniProt,P52208,nucleus,GO:0005634,negative,indirect,phosphorylation,,,epithelial-like,brain,human
+miR-33a,miRNA,,,miRBase,MIMAT0000250,cytoplasm,GO:0005737,NFAT,protein,,NFATC1,UniProt,Q16552,nucleus,GO:0005634,negative,direct,binds,,HEK 293T,epithelial-like,kidney,human
+STAT3,protein,transcription factor,STAT3,UniProt,P40763,nucleus,GO:0005634,cell survival,process,,,fplx,cell survival,plasma membrane,GO:0005886,positive,indirect,regulation,,,Glioblastoma,brain,human
+CDK1,protein,,CDK1,UniProt,P06493,cytoplasm,GO:0005829,p38,protein,,MAPK14,UniProt,O15264,cytoplasm,GO:0005829,negative,direct,dephosphorylation,,,epithelial,,human
+hydrophobic residues,amino acid,hydrophobic,,UniProt,,cytosol,GO:0005829,kinases,protein,,,UniProt,,cytosol,GO:0005829,negative,indirect,electrostatic filtering,motif,,epithelial-like,,human
+CDK18,protein,kinase,CDK18,UniProt,Q9Y6Q6,cytoplasm,GO:0005737,PINK1,protein,,,UniProt,Q9P2H2,mitochondria,GO:0005739,positive,direct,phosphorylation,,,,,human
+kinases,protein,,,UniProt,,cytoplasm,GO:0005737,phosphorylation sites,other,,,,,cytoplasm,GO:0005737,positive,direct,phosphorylation,serine/threonine,,epithelial,,human
+RAF,protein,,RAF1,UniProt,P04049,cytoplasm,GO:0005829,NF?B,protein,,NFKB1,UniProt,P19838,cytoplasm,GO:0005829,positive,direct,phosphorylation,,mtKRASHi and mtKRASLo,epithelial-like,,mammalian
+PRKA,protein,,PRKAR1A,UniProt,P10644,cytoplasm,GO:0005737,EGFR,protein,,EGFR,UniProt,P00533,plasma membrane,GO:0005886,negative,direct,inhibition,,mtKRASHi and mtKRASLo,epithelial-like,,human
+Dabrafenib,drug,,,DrugBank,DB08868,plasma,GO:0005737,BRAF L514V,mutation,,,,,plasma membrane,GO:0005886,negative,indirect,mutation,,,B-cell,brain,human
+LAT,protein,,,,,cell,GO:0005623,PLC ?,enzyme,,,,,cell,GO:0005623,positive,direct,phosphorylation,,,T cell,,human
+PDEs,model,bio-mechanical,,,,,,Breast cancer cells,cell,epithelial,,fplx,,tumor,GO:0005615,positive,indirect,regulation,,,epithelial,breast,mouse
+Pyrazinamide,drug,,,DrugBank,DB01105,extracellular,GO:0005615,Mycobacterium tuberculosis,bacterium,,,UniProt,P0DJI4,intracellular,GO:0005737,negative,direct,inhibition,,,immune cells,lung,human
+sutezolid,drug,antibiotic,,,,plasma membrane,GO:0005886,RMM outcomes,other,,,,,,,positive,indirect,response,,,epithelial-like,,human
+drug combination,drug,,,,,extracellular,GO:0005615,RMM outcome,other,,,,,,,positive,direct,response,lipid environment,,immune cells,lung,mouse
+Hill function,equation,,,,Hill function,,,drug,compound,,,,drug,cytoplasm,GO:0005737,negative,direct,inhibition,,,epithelial-like,,human
+Drug,small molecule,,,,,cytoplasm,GO:0005829,Cell growth rate,process,,,,,cytoplasm,GO:0005829,negative,indirect,inhibition,,,epithelial-like,,human
+Shc1,protein,,SHC1,UniProt,Q13062,cytoplasm,GO:0005737,Cluster 2 and 3 proteins,protein,,,,,cytoplasm,GO:0005737,positive,direct,phosphorylation,Ser335,MEFs,fibroblast,,human
+epithelial to mesenchymal transition,process,,,,epithelial to mesenchymal transition,epithelial cells,GO:0002105,epithelial cells,cell,,,,epithelial cells,epithelial cells,GO:0002105,positive,indirect,signaling,plasma membrane,human,epithelial-like,epithelial,human
+Boolean functions,other,,,,,,,network components,other,,,,,,,positive,indirect,Boolean inference,,,,,human
+ZAP-70,protein,,ZAP70,UniProt,Q06190,plasma membrane,GO:0005886,PLC ?,protein,,PLCG1,UniProt,P06493,plasma membrane,GO:0005886,positive,indirect,phosphorylation,,,T-cell,,human
+Regulator,protein,,,UniProt,,,,Target,biomolecule,,,,,,,positive,indirect,constitutive activity,,,,,
+D,protein,,,UniProt,,,,T,other,,,fplx,T,,,negative,direct,phosphorylation,,,,,human
+M,protein,mediator,,UniProt,,,GO:0005576,T,protein,,,UniProt,,,GO:0005576,positive,direct,regulation,,,,,
+proteins,biological macromolecule,,,UniProt,P0AET7,cell,GO:0005623,logical modeling,modeling,,,,,,GO:0005575,positive,indirect,,,,,,
+Chaouiya et al.,study,,,fplx,Chaouiya et al.,,GO:0005623,Boolean regulatory model,model,,,fplx,Boolean regulatory model,nucleus,GO:0005634,positive,indirect,derivation,,,epithelial-like,,human
+SHP2,protein,,PTPN11,UniProt,Q15108,plasma membrane,GO:0005886,IR,protein,receptor,INSR,UniProt,P06213,plasma membrane,GO:0005886,positive,indirect,drives,,SHP2-negative cells,epithelial-like,,human
+IL17,cytokine,interleukin 17,IL17,UniProt,P60568,immune cells,GO:0000000,Biomaterials,other,,,,Biomaterials,extracellular matrix,GO:0005576,positive,indirect,transcription factor activation,nucleus,murine muscle,fibroblast,muscle,mouse
+Biomaterials,other,,,,,extracellular,GO:0005576,Fibroblasts,cell,,,,,extracellular,GO:0005576,positive,indirect,vascularization promotion,extracellular,,endothelial cell,,human
+ECM,other,,,fplx,ECM,plasma membrane,GO:0005886,PCL,other,,,fplx,PCL,plasma membrane,GO:0005886,positive,indirect,regulation,,"myeloid (CD45+CD11b+), T cells (CD45+CD3+)","myeloid, T cells",,human
+Regulatory T-cells,other,,,fplx,Regulatory T-cells,tumor microenvironment,GO:0031090,IFN-?,protein,,IFNG,UniProt,P01579,tumor microenvironment,GO:0031090,positive,direct,activation,,,T-cell,breast,human
+Helper T-cells,cell,immune,T cells,,helper T-cells,lymphoid tissue,GO:0031090,Cancer cells,cell,cancer,,,Cancer cells,,,positive,indirect,,,,immune,,human
+RAGE,protein,,AGER,UniProt,P29329,plasma membrane,GO:0005886,ERK2,protein,,MAPK1,UniProt,P28482,cytoplasm,GO:0005737,positive,indirect,phosphorylation,,,epithelial-like,,human
+STRING,database,,,UniProt,,,,escore,score,,,,,,,positive,indirect,extracting,escore,,,,
+3CLpro,protein,protease,,UniProt,Q9BXM5,,,HIV-1 protease,protein,protease,,CHEMBL,CHEMBL4296312,,,positive,direct,,,,T-cell,,human
+goat anti-mouse,antibody,,,,,cytoplasm,GO:0005737,Cig2,protein,,,UniProt,,cytoplasm,GO:0005737,positive,indirect,binds,,,epithelial-like,,
+Gab1,protein,adaptor,GAB1,UniProt,Q16155,plasma membrane,GO:0005886,EGFR,protein,receptor,EGFR,UniProt,P00533,plasma membrane,GO:0005886,positive,direct,recruitment,,,epithelial,,human
+Cdk1,protein,kinase,CDK1,UniProt,P06493,nucleus,GO:0005634,p27,protein,kinase inhibitor,CDKN1B,UniProt,Q9Y6K9,nucleus,GO:0005634,negative,direct,phosphorylation inhibition,,,epithelial,,human
+DE algorithm,algorithm,,,,,software,,Parameter ranges,other,,,,,software,,positive,indirect,optimization,,,,,
+Wild-type yeast cells,other,,,,,cell,,,ion,,,,,cytosol,GO:0005829,positive,indirect,phosphorylation,,,epithelial,,human
+BH3-only molecules (BH3s),protein,proapoptotic,,,,cytosol,GO:0005829,cytochrome c,protein,,,UniProt,P00918,cytosol,GO:0005829,negative,direct,binds,BH3 domain,,,,human
+thapsigargin,chemical,inhibitor,,PubChem,5978,ER,GO:0005783,Caspase 3/7,enzyme,,,UniProt,P42574,cytoplasm,GO:0005737,negative,indirect,inhibitor,ER,MEFs,fibroblast,embryonic,mouse
+CycE/CDK2,other,,,,,nucleus,GO:0005634,Proliferation,process,,,,,,GO:0000003,positive,indirect,phosphorylation,,,epithelial,,human
+mesenchymal-like TFs,protein,transcription factor,,,,nucleus,GO:0005634,hybrid phenotype,other,,,,,cell,GO:0005623,negative,direct,regulation,,SCLC,mesenchymal-like,lung,human
+NFAT,protein,,NFATC1,UniProt,Q16552,nucleus,GO:0005634,PLC ?,enzyme,,,fplx,PLC ?,cytoplasm,GO:0005829,positive,indirect,feedback loop,,pancreatic adenocarcinoma,epithelial-like,pancreas,human
+BRCA1,protein,tumor suppressor,BRCA1,UniProt,P38398,nucleus,GO:0005634,IRS-1,protein,,IRS1,UniProt,P35568,plasma membrane,GO:0005886,negative,direct,epigenetic modification,,,epithelial,breast,human
+JNK,protein,,MAPK8,UniProt,Q07912,cytoplasm,GO:0005829,insulin,hormone,,INS,UniProt,P06213,plasma membrane,GO:0005886,positive,direct,phosphorylation,,,cancer cell,,human
+Bevacizumab,protein,,,UniProt,1BKC,plasma,GO:0005615,VEGF,protein,,VEGFA,UniProt,P15692,plasma,GO:0005615,negative,indirect,inhibition,,,glioblastoma,brain,human
+CEBPB,protein,TF,CEBPB,UniProt,P17661,nucleus,GO:0005634,JUND,gene,,JUND,,,nucleus,GO:0005634,positive,indirect,transcriptional regulation,,HGG,glioblastoma,brain,human
+MYC,protein,,MYC,UniProt,P01106,nucleus,GO:0005634,AKT,protein,,AKT1,UniProt,P31749,cytoplasm,GO:0005829,positive,indirect,transcriptional regulation,,,HGG,,human
+Oncogenic,protein,,,UniProt,,plasma membrane,GO:0005886,Other RTKs,protein,,,UniProt,,plasma membrane,GO:0005886,positive,direct,phosphorylation,,,glioma,brain,human
+EGF,growth factor,,,UniProt,,extracellular space,GO:0005615,HGG cells,cell,,,,,plasma membrane,GO:0005886,positive,direct,receptor binding,,,glioblastoma stem cells,brain,mouse
+DISTp,other,,,,,,,SFARI genes,other,,,,,,,negative,indirect,,,,,,human
+mTOR,protein,kinase,MTOR,UniProt,Q9Y463,cytoplasm,GO:0005737,TCR,other,,,fplx,TCR,plasma membrane,GO:0005886,positive,indirect,activation,,GBM,glioma,brain,human
+BartWeb,algorithm,,,,10,,,tumor growth,process,,,,,,,negative,indirect,regulation,,,epithelial,,human
+TFCRs,protein,transcription factor,,,TFCRs,nucleus,GO:0005634,TCA cycle,pathway,,,,TCA cycle,mitochondria,GO:0005739,positive,indirect,regulating,,,,,human
+TFCRs,protein,receptor,,UniProt,,cell membrane,GO:0005886,neoantigen load,other,,,,,,,positive,indirect,association,,,epithelial-like,,human
+CD8+,protein,,CD8A,UniProt,P01732,lymphoid tissue,GO:0031090,Tregs,cell,T cell,FOXP3,UniProt,P56948,lymphoid tissue,GO:0031090,negative,indirect,inhibition,,4T1 mice,tumor-infiltrating cells,lymphoid tissue,mouse
+BTAS,gene set,,,,,tumor,,OS,process,,,,,tumor,,positive,indirect,association,,,tumor,melanoma,human
+BipotentR,algorithm,,,,,,,Growth-suppressor pathways,pathway,,,,,,,negative,indirect,inhibition,,,cancer cell,,human
+?,parameter,,,,,,,"L(?,, |E)",function,,,,,,,positive,indirect,statistical analysis,,,immune cell,lymphoid,human
+PD-1,protein,,PDCD1,UniProt,Q15116,plasma membrane,GO:0005886,Melanoma,other,,,,,,,negative,direct,inhibits,,,melanoma,skin,human
+Anti-PD1,antibody,,,,,plasma membrane,GO:0005886,Immune-metabolic targets,other,,,,,,,positive,direct,binding,,,immune cells,,human
+PD-1,protein,,PDCD1,UniProt,Q9GZQ7,plasma membrane,GO:0005886,T-cell lymphocytes,other,,,fplx,T-cell lymphocytes,peripheral blood,GO:0000000,positive,indirect,downregulation,,GBM,T-cell,brain,human
+PR-957,protein,,,,,joint,,Rheumatoid Arthritis,disease,,,,,joint,,positive,indirect,ameliorated,,,immune cells,joint,mouse
+NDUFS4,gene,,NDUFS4,HGNC,7869,,,Verbal memory,other,,,,,,,positive,indirect,association,,,neuron,,human
+CDK6,protein,,CDK6,UniProt,Q9NRA2,nucleus,GO:0005634,NFAT,protein,,NFATC1,UniProt,Q14289,nucleus,GO:0005634,positive,indirect,activation,,1205Lu,epithelial-like,,human
+FXR1,protein,,FXR1,UniProt,Q9Y5T8,nucleus,GO:0005634,Rb,protein,,RBBP8,UniProt,P06400,nucleus,GO:0005634,positive,indirect,regulation,,HEK293T,epithelial-like,kidney,human
+p53,protein,,TP53,UniProt,P04637,nucleus,GO:0005634,p21,protein,,CDKN1A,UniProt,P38936,nucleus,GO:0005634,positive,indirect,phosphorylation,,,epithelial-like,,human
+Palbociclib,drug,CDK4/6 inhibitor,,DrugBank,DB06232,plasma,,Melanoma cells,cell,cancer,,,,subcutaneous,,negative,indirect,inhibition,,SCID mice,immune-deficient,,mouse
+Ascl1,protein,,ASCL1,UniProt,Q9Z2P0,cytoplasm,GO:0005737,neuronal target genes,gene,,,,,nucleus,GO:0005634,positive,direct,transcriptional activation,,,neuron,brain,mouse
+ASCL1,protein,transcription factor,ASCL1,UniProt,Q14192,nucleus,GO:0005634,GBM tissues,tissue type,,,,,,,positive,indirect,transcriptional regulation,,,epithelial-like,brain,human
+CD8-p56,protein,,,UniProt,P06493,plasma membrane,GO:0005886,NFAT,protein,,NFATC1,UniProt,Q14257,nucleus,GO:0005634,positive,indirect,phosphorylation,,,T-cell,,human
+NFAT,protein,,NFATC1,UniProt,Q13315,nucleus,GO:0005634,TCR / CD3 subunits,other,,,fplx,TCR / CD3,plasma membrane,GO:0005886,positive,direct,phosphorylation,,,T-cell,,human
+ZAP-70,protein,,ZAP70,UniProt,P43403,plasma membrane,GO:0005886,LAT,protein,,LAT,UniProt,Q13421,plasma membrane,GO:0005886,positive,indirect,translocation of NFAT into the nucleus,,,B-cell,,human
+PLC ?,protein,,PLCG1,UniProt,P07237,plasma membrane,GO:0005886,NFAT,protein,,NFATC1,UniProt,Q14270,nucleus,GO:0005634,positive,indirect,phosphorylation,,,T-cell,lymphoid,human
+ZAP-70,protein,,ZAP70,UniProt,Q06190,plasma membrane,GO:0005886,LAT,protein,,LAT,UniProt,Q13503,plasma membrane,GO:0005886,positive,indirect,phosphorylation,,,T-cell,lymphoid,human
+NFAT,protein,,NFATC1,UniProt,Q16526,nucleus,GO:0005634,CD3,other,,,fplx,CD3,plasma membrane,GO:0005886,positive,direct,phosphorylation,,,T-cell,,human
+ZAP-70,protein,,ZAP70,UniProt,P43487,plasma membrane,GO:0005886,LAT,protein,,LAT,UniProt,Q9Y5T8,plasma membrane,GO:0005886,positive,direct,phosphorylation,,,T-cell,,human
+LEF1,protein,,LEF1,UniProt,Q9Y6B8,nucleus,GO:0005634,YKL40,gene,,YKL40,fplx,YKL40,cytoplasm,GO:0005737,positive,direct,binds,promoter,GBM cells,epithelial-like,brain,human
+Urokinase receptor,receptor,,,fplx,Urokinase receptor,plasma membrane,GO:0005886,ERK,protein,kinase,MAPK1,UniProt,P28482,cytoplasm,GO:0005737,positive,indirect,activation,,GBM xenograft,glioblastoma,brain,human
+BoolODE,software,,,,BoolODE,,,GeneNetWeaver,software,,,,GeneNetWeaver,,,negative,indirect,comparison,,,epithelial-like,,human
+Research paper,document,,,,,,,Contradictory information,information,,,,,,,negative,indirect,refutes,,,,,human
+TMEM242,protein,,TMEM242,UniProt,Q9H6Z4,mitochondria,GO:0005739,mitochondrial respiration,process,,,WikiPathways,,mitochondria,GO:0005739,positive,indirect,CRISPR interference (CRISPRi),,>2.5 million human cells,epithelial-like,,human
+NEPRO,protein,,,UniProt,Q8N5M7,cytosol,GO:0005829,ribosome,other,,,fplx,ribosome,cytosol,GO:0005829,positive,indirect,regulation,ribosome,,epithelial-like,,human
+non-identical distributions,distribution,,,,,,,perturbed cells,cell,,,,,,,positive,indirect,permutation test,,,,,
+RIPK1,protein,,RIPK1,UniProt,Q13546,cytoplasm,GO:0005737,lipopolysaccharide response,other,,,,,cytoplasm,GO:0005737,negative,indirect,binds,,macrophages,immune cell,immune tissue,mammalian
+macrophage,cell,immune cell,,,,,,output data,other,,,,,,,positive,direct,binding,,,immune cell,,human
+PARP,protein,,PARP1,UniProt,P09874,nucleus,GO:0005634,MCF10A,cell line,,,cell line,MCF10A,,GO:0005739,positive,indirect,increased sensitivity,,MCF10A,epithelial,breast,human
+HEC1B,protein,,,UniProt,,cytoplasm,GO:0005829,HEC1B,protein,,,UniProt,,cytoplasm,GO:0005829,positive,indirect,activation,,,epithelial,,human
+WEE1,enzyme,,WEE1,UniProt,P50615,nucleus,GO:0005634,,,,,,,,,positive,direct,inhibition,,AN3CA,epithelial-like,,human
