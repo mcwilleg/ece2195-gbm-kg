@@ -1,0 +1,52 @@
+Regulator Name,Regulator Type,Regulator Subtype,Regulator HGNC Symbol,Regulator Database,Regulator ID,Regulator Compartment,Regulator Compartment ID,Regulated Name,Regulated Type,Regulated Subtype,Regulated HGNC Symbol,Regulated Database,Regulated ID,Regulated Compartment,Regulated Compartment ID,Sign,Connection Type,Mechanism,Site,Cell Line,Cell Type,Tissue Type,Organism
+DDR1,protein,,DDR1,UniProt,Q08379,plasma membrane,GO:0005886,ERK,protein,,MAPK1,UniProt,P28482,cytoplasm,GO:0005829,negative,indirect,inhibition,,,tumour cell,,human
+beta-catenin,protein,,CTNNB1,UniProt,Q9Y4H2,cytoplasm,GO:0005829,CD47,protein,,CD47,UniProt,P97287,plasma membrane,GO:0005886,negative,direct,ubiquitination,Y288,GBM cells,glial-like,brain,human
+mM-CSF,protein,,,UniProt,,plasma membrane,GO:0005886,GBM,other,,,fplx,GBM,plasma membrane,GO:0005886,positive,direct,phosphorylation,,,B-cell,,human
+Hedgehog,signaling pathway,,,,,cytoplasm,GO:0005737,CSC,cell population,,,,,,,negative,indirect,inhibits,,LN229 and SNB19,glioblastoma,brain,human
+hycamtin,protein,,,UniProt,TOP,,,NSCC,other,,,fplx,NSCC,,,positive,direct,apoptosis,,,,,
+p53,protein,,TP53,UniProt,P04637,nucleus,GO:0005634,CCNB2,gene,,CCNB2,HGNC,1665,nucleus,GO:0005634,positive,indirect,transcriptional regulation,,GSC-SNB19,,,human
+Nasal administration,delivery method,,,,Nasal administration,nasal cavity,,Oral administration,delivery method,,,,Oral administration,oral cavity,,positive,indirect,,,,GBM cell,brain,human
+NF-?B,protein,transcription factor,NFKB1,UniProt,P19838,nucleus,GO:0005634,PDGFRA?7,transcript,,,,PDGFRA?7,plasma membrane,GO:0005886,positive,indirect,transcriptional regulation,,SF10282,glioma stem cells,brain,human
+FAK,protein,,P12577,UniProt,P12577,cytoplasm,GO:0005737,FAK,protein,,P12577,UniProt,P12577,cytoplasm,GO:0005737,negative,indirect,downregulation,,"U87, U251, 5310",glioma,brain,human
+PI3K,protein,kinase,PIK3CA,UniProt,P42336,cytoplasm,GO:0005737,NFAT,protein,transcription factor,NFATC1,UniProt,Q9Y5Q6,nucleus,GO:0005634,negative,indirect,phosphorylation,,5310,glioma,brain,human
+EGFR,protein,receptor,EGFR,UniProt,P00533,plasma membrane,GO:0005886,FAK,protein,,P1254,UniProt,P1254,cytoplasm,GO:0005829,positive,direct,downregulation,,hUCBSC,hematopoietic stem cell,bone marrow,human
+EGFRvIII,protein,receptor,,UniProt,,cell membrane,GO:0005886,Glioblastoma multiforme,other,,,,,,,positive,direct,signaling,,,glioblastoma cells,brain,human
+EGFRvIII,protein,receptor,EGFR,UniProt,Q16631,plasma membrane,GO:0005886,Cell Invasion,other,,,fplx,Cell Invasion,,,positive,indirect,expression,plasma membrane,Gli36,glioma,brain,human
+IL-13R?2 (mutant),protein,receptor,IL13RA2,UniProt,Q9Y5Q8,plasma membrane,GO:0005886,EGFRvIII,protein,receptor,EGFR,UniProt,P00533,plasma membrane,GO:0005886,negative,direct,interaction,cytoplasmic tail,Gli36.EGFRvIII,glioblastoma,brain,human
+IL-13R?2,protein,,,,,intracranial,,IL-13R?2,protein,,,,,intracranial,,positive,direct,co-expression,,U251-E18,glioblastoma,brain,human
+WP1066,small-molecule,inhibitor,,PubChem,1155639,cytoplasm,GO:0005829,CYP3A5,gene,,CYP3A5,UniProt,P08684,cytoplasm,GO:0005737,negative,indirect,phosphorylation,,GSCs,glioma stem cells,brain,human
+NXD30001,protein,,,UniProt,,cytoplasm,GO:0005737,CHOP,protein,,DDIT3,UniProt,Q16662,cytoplasm,GO:0005737,positive,direct,phosphorylation,,GSCs,epithelial-like,brain,human
+ERK,protein,,MAPK1,UniProt,P27361,cytoplasm,GO:0005737,gene,other,,,fplx,,cytoplasm,GO:0005737,positive,indirect,regulation of gene expression,,,epithelial-like,,human
+bFGF,protein,,FGF2,UniProt,P09038,extracellular region,GO:0005576,ERK1/2,protein,,"MAPK1, MAPK3",UniProt,"P28482, P27361",cytoplasm,GO:0005737,positive,direct,phosphorylation,,neural stem cells,neural stem cells,,human
+TruSeq stranded total RNA library preparation kit,reagent,,,fplx,TruSeq stranded total RNA library preparation kit,cytoplasm,GO:0005737,Sequencing libraries,molecule,,,fplx,Sequencing libraries,cytoplasm,GO:0005737,positive,direct,preparation,,U251MG,glioblastoma,brain,human
+EGFR,receptor,,EGFR,UniProt,P00533,plasma membrane,GO:0005886,tumour cell invasion,process,,,fplx,tumour cell invasion,plasma membrane,GO:0005886,positive,direct,stimulation,,,glioblastoma,,human
+Irradiation,physical,,,,,,GO:0005623,Glioma cells,other,,,fplx,glioma cells,,GO:0005737,positive,indirect,increases,,,epithelial,brain,human
+EGF,protein,,EGF,UniProt,P01133,extracellular region,GO:0005576,CSCs,cell,,,,CSCs,sphere,GO:0005619,positive,direct,transformation,,GBM,stem cell,brain,human
+Ink4/Arf,gene,,,fplx,Ink4/Arf,nucleus,GO:0005634,TujI,protein,,TUBB,UniProt,P07196,cytoplasm,GO:0005737,negative,indirect,downregulation,,,neuron,,human
+Gefitinib,small molecule,,,,SU5619,cytoplasm,GO:0005829,EGFR v III,protein,,,UniProt,Q15309,plasma membrane,GO:0005886,negative,direct,inhibition,,NOD/SCID mice,CD133+,brain,human
+SLUG,protein,transcription factor,SNAI2,UniProt,Q9Y5T8,nucleus,GO:0005634,Vascular Subpopulations,cell,,,,,,,negative,indirect,regulation,,,stem cell,brain,human
+Notch1,protein,receptor,NOTCH1,UniProt,Q05193,plasma membrane,GO:0005886,TAL1,protein,transcription factor,TAL1,UniProt,P35626,nucleus,GO:0005634,positive,indirect,upregulates,,,GSCs,,human
+MI-2,protein,,,UniProt,Q14191,cytoplasm,GO:0005737,GBM cells,cell,,,fplx,GBM cells,cytoplasm,GO:0005737,negative,direct,inhibition,,U87 and U251,glioblastoma,brain,human
+Rapamycin,small molecule,inhibitor,,,,plasma,GO:0005615,mTOR,protein,serine/threonine kinase,MTOR,UniProt,Q9Y473,cytoplasm,GO:0005737,negative,direct,binding,,U87MG,glioma cells,brain,human
+Iron Oxide Nanoparticles,other,,,,,,GO:0005576,EGFRvIII,protein,,,UniProt,,plasma membrane,GO:0005886,positive,direct,binding,,,glioblastoma cells,brain,human
+HIF1?,protein,transcription factor,HIF1A,UniProt,Q16665,"cytoplasm, nucleus","GO:0005737, GO:0005634",HIF2?,protein,transcription factor,EPAS1,UniProt,Q99743,"cytoplasm, nucleus",GO:0005737 GO:0005634,positive,indirect,regulation,"cytoplasm, nucleus","GCSCs, PCSCs",epithelial-like,brain,human
+Streptomycin,antibiotic,aminoglycoside,,,,cytoplasm,GO:0005829,U87MG,cell,,,,,cytoplasm,GO:0005829,positive,direct,,,,glioma,brain,human
+STEM121,protein,antibody,,,STEM121,cytoplasm,GO:0005737,tumor cells,other,,,,tumor cells,cytoplasm,GO:0005737,positive,direct,binds,,,,,human
+PTEN,protein,,PTEN,UniProt,P60484,nucleus,GO:0005634,Hif1?,protein,,HIF1A,UniProt,Q16665,nucleus,GO:0005634,positive,indirect,correlation,,T1440,stem-like,,human
+PTEN,protein,phosphatase,PTEN,UniProt,P60484,plasma membrane,GO:0005886,Tp53,protein,transcription factor,TP53,UniProt,P04637,nucleus,GO:0005634,negative,indirect,mutation,nucleus,T1452,stem cell,glioma,human
+PDGFR?,protein,,PDGFRB,UniProt,P31749,cell membrane,GO:0005886,LAT,protein,,LAT,UniProt,P78348,cell membrane,GO:0005886,positive,direct,binds,,,epithelial-like,,human
+TP53,gene,,TP53,UniProt,P04637,nucleus,GO:0005634,Chromosome Y,chromosome,,,,Y,nucleus,GO:0005634,negative,indirect,loss,,GBM7,glioma,brain,human
+CGI,gene,promoter,,,,nucleus,GO:0005634,GSC,cell,,,,,,,negative,indirect,demethylation,promoter,foetal NSC lines,stem cell,brain,human
+Zebrafish NSCs,cell,,,,,,,CB660 cells,cell,,,,,,,negative,direct,,promoter regions,,GSCs,,human
+CXCL10,gene,,CXCL10,UniProt,P18754,extracellular region,GO:0005615,CXCL10,protein,,,UniProt,P18754,extracellular region,GO:0005615,positive,indirect,chemotaxis,,,T-cell,lymph node,human
+hsa-miR-339-5p,miRNA,,,miRBase,MIMAT0000411,cytoplasm,GO:0005737,TGM2,mRNA,,TGM2,HGNC,11655,cytoplasm,GO:0005737,negative,indirect,downregulation,cytoplasm,U87 MG,glioblastoma,brain,human
+miR-381-3p,miRNA,,,miRBase,miR-381-3p,cytoplasm,GO:0005737,GREM1 (Gremlin-1),protein,,GREM1,UniProt,Q9Y5T0,cytoplasm,GO:0005737,negative,indirect,post-transcriptional regulation,,U87n,glioma cell,brain,human
+Docosahexaenoic acid (DHA),lipid,,,fplx,DHA,plasma membrane,GO:0005886,Cancer stem cell phenotype,cellular process,,,fplx,Cancer stem cell phenotype,,,positive,indirect,promotion,,,neural stem cell,,human
+REST,protein,transcription factor,REST,UniProt,Q9P2K8,nucleus,GO:0005634,Gene 1,gene,,,Entrez Gene,1,nucleus,GO:0005634,negative,indirect,regulation,promoter region,U87MG,glioblastoma,brain,human
+p-Stat3,protein,,STAT3,UniProt,P40763,cytoplasm,GO:0005829,p-Stat3,protein,,STAT3,UniProt,P40763,nucleus,GO:0005634,positive,direct,phosphorylation,,,B-cell,,human
+N-803,protein,,,UniProt,,,,immune response,biological process,,,,,,,positive,indirect,immuno-stimulation,,,immune cell,lymphoid,human
+N-803,protein,,,,,,,cytotoxicity,process,,,,,,,positive,indirect,,,,,,
+Akt,protein,,AKT1,UniProt,P31749,cytoplasm,GO:0005737,ESC,other,,,fplx,ESC,,,positive,direct,interaction,Hes1,,,,human
+Hes1,protein,,HES1,UniProt,Q15282,nucleus,GO:0005634,Bcl-X,protein,,BCL2L1,UniProt,Q07817,mitochondria,GO:0005739,positive,direct,phosphorylation,,,,,
+PDGFR,protein,,PDGFRB,UniProt,P06241,plasma membrane,GO:0005886,RAS-MAPK signalling pathway,pathway,,,,RAS-MAPK signalling pathway,plasma membrane,GO:0005886,positive,direct,phosphorylation,,glioma cell lines,epithelial-like,brain,human
+nestin,protein,intermediate filament,NES,UniProt,P48681,cytoplasm,GO:0005737,,,,,,,,,positive,direct,blockade,,,glioblastoma multiforme,brain,human
